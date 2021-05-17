@@ -1,5 +1,5 @@
 const counters = document.querySelectorAll('.numbergraph');
-const speed = 100;
+const speed = 200;
 
 counters.forEach(counter => {
     const updateCount = () => {
