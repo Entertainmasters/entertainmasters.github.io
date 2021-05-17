@@ -1,0 +1,15 @@
+.graphs {
+  padding: 20px 0px;
+  background-color: #333333;
+  display: flex;
+}
+
+.graph {
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+
+.numbergraph {
+  font-size: 30px;
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.centerheader {
+    text-align: center;
+    font-size: 35px;
+    padding: 20px 0px;
+    font-family: 'Roboto';
+}
+
+.aboutsubhead {
+    font-size: 25px;
+    color: darkblue;
+    padding: 20px 0px;
+    font-family: 'Roboto';
+    padding-left: 30px;
+}

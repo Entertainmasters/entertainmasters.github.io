@@ -1,0 +1,109 @@
+.centerheader2
+{
+    font-size: 35px;
+    padding: 20px 50px;
+    font-family: 'Roboto';
+}
+
+.txtwork {
+    padding: 0px 50px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.txtwork2 {
+    padding: 0px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.workheader {
+    font-size: 20px;
+    color: darkcyan;
+    padding: 40px 50px 20px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.workheader2 {
+    text-align: center;
+    color: darkblue;
+    font-size: 35px;
+    padding: 20px 0px;
+    font-family: 'Roboto';
+}
+.apply {
+    border: none;
+    border-radius: 15px;
+    margin: 0px 50px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #6b79ff;
+    font-size: 20px;
+}
+
+.apply:hover {
+    background-color: #2d39a9;
+}
+
+.jobname {
+    font-size: 30px;
+    margin: 10px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jobnamenra {
+    font-size: 30px;
+    margin: 10px 50px;
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+
+.intershipjobname {
+    font-size: 30px;
+    margin: 10px 50px;
+    color: darkblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jobfield {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0px 50px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+}
+
+.jobfield2 {
+    margin: 10px 0px;
+    padding: 0px 50px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+
+.types {
+  padding: 20px 0px;
+  display: flex;
+}
+
+.type {
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+
+.typetxt1 {
+  font-size: 20px;
+  color: darkblue;
+}
+
+.typetxt2 {
+  font-size: 20px;
+  color: red;
+}
+
+.typetxt {
+  font-size: 20px;
+  color: black;
+}
+

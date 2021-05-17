@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: "Google-Sans";
+    src: url("fonts/Product\ Sans\ Regular.ttf") format("ttf"),
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li, a {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a3a3a;
+    padding: 30px 10%;
+    
+}
+
+#logo {
+    color: white;
+    cursor: default;
+    font-size: 25px;
+    font-family: 'google-sans', sans-serif;
+}
+
+.nav_links li {
+    display: inline-block;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+
