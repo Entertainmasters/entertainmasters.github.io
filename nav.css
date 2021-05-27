@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 @font-face {
-    font-family: "Google-Sans";
-    src: url("fonts/Product\ Sans\ Regular.ttf") format("ttf"),
+    font-family: 'googlesans';
+    src: url('fonts/Product\ Sans\ Regular.ttf');
+}
+
+@font-face {
+    font-family: 'nsmbu';
+    src: url('fonts/New\ Super\ Mario\ Font\ U.ttf');
+}
+
+@font-face {
+    font-family: 'roboto-thin';
+    src: url('fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'robotocondensed';
+    src: url('fonts/RobotoCondensed-Light.ttf');
 }
 
 * {
@@ -35,12 +50,20 @@ header {
     color: white;
     cursor: default;
     font-size: 25px;
-    font-family: 'google-sans', sans-serif;
+    font-family: 'nsmbu';
 }
 
 .nav_links li {
     display: inline-block;
     justify-content: space-around;
     padding: 0px 20px;
+}
+
+.langselc {
+    color: #7edbff;
+}
+
+.langselc:visited {
+    color: #7edbff;
 }
 
