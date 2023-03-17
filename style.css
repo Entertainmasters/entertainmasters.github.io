@@ -1,23 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*
+    style.css | the stylesheet for everything in the site
+    Copyright Entertainmasters & Copy05 2017 - 2023
+
+*/
 
 @font-face {
-    font-family: 'googlesans';
-    src: url('fonts/Product\ Sans\ Regular.ttf');
+    font-family: "Entertainmasters-Sans";
+    src: url('./fonts/EM-SANS.ttf');
 }
 
 @font-face {
-    font-family: 'nsmbu';
-    src: url('fonts/New\ Super\ Mario\ Font\ U.ttf');
+    font-family: "Oswalt";
+    src: url('./fonts/Oswald-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'roboto-thin';
-    src: url('fonts/Roboto-Thin.ttf');
+    font-family: "Product-Sans";
+    src: url('./fonts/Product\ Sans\ Regular.ttf');
 }
 
 @font-face {
-    font-family: 'robotocondensed';
-    src: url('fonts/RobotoCondensed-Light.ttf');
+    font-family: "Roboto";
+    src: url('./fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "EGM-WhiteNT";
+    src: url('./fonts/White_NT.otf');
+}
+
+@font-face {
+    font-family: "EGM-Akira";
+    src: url('./fonts/Akira\ Expanded\ Demo.otf');
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('./fonts/Montserrat-Bold.ttf');
+    font-weight: 600;
 }
 
 * {
@@ -26,31 +46,45 @@
     margin: 0;
 }
 
-li, a {
-    font-family: 'Roboto', sans-serif;
-    list-style: none;
-    text-decoration: none;
-    color: white;
+html {
+    min-height: 100%; 
 }
 
-a:visited {
-    color: white;
+body {
+    background: rgb(30, 30, 30);
+}
+
+li > a {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Product-Sans";
+}
+
+header > li, a {
+    list-style: none;
+    text-decoration: none;
+    transition: 0.1s;
 }
 
 header {
-    display: flex;
+    z-index: 100;
+    top: 0;
+    backdrop-filter: blur(7px);
+    width: 100%;
+    position: fixed;
     justify-content: space-between;
-    align-items: center;
-    background-color: #3a3a3a;
-    padding: 30px 10%;
-    
+    background-color: rgba(45,45,45, 0.6);
+    padding: 15px 10%;
 }
 
-#logo {
-    color: white;
-    cursor: default;
+.logo, .logo:visited {
+    cursor: pointer;
     font-size: 25px;
-    font-family: 'nsmbu';
+    transition: 0.1s;
+}
+
+.logo:hover, a:hover {
+    opacity: 70%;
 }
 
 .nav_links li {
@@ -59,65 +93,426 @@ header {
     padding: 0px 20px;
 }
 
-/* Will be removed and gets replaced with a better one */
-.foot {
-    background-color: #3a3a3a;
-    text-align: center;
+footer {
+    background-color: rgb(45,45,45);
+}
+
+em-fixedheader-fix {
+    margin: 60px 0px;
+}
+
+/*
+ScrollBars
+*/
+
+::-webkit-scrollbar {
+    background: rgb(20,20,30);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgb(40,40,80);
+}
+
+/*
+GLOBAL CSS
+*/
+
+.mpahead, a, a:visited, header, .logo, .logo:visited, .readarticle, .centerhead, .copyright, .graph, .client1, .client2, .client3, .graphs, 
+.clients, footer, .itxt, .ihead, .nptxt, .brand1, .brand2, .brand3, .brand4, .brand5, .articlehead, .aboutsec {
     color: white;
-    padding: 20px 10px;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:60px;   
 }
 
-.foot2 {
-    margin-top: 50px;
-    background-color: #3a3a3a;
+.itxt, .centerhead, .ihead, .nptxt, .abtxt {
+    font-family: "Roboto";
+}
+
+header, .mainpagearticle, .graphs, .socials, .clients, .footsections, .brands, .articles {
+    display: flex;
+}
+
+.logo, .readarticle, .mpahead, .logo, .copyright, .centerhead-nr, .articlehead, .aboutsec {
+    font-family: "Entertainmasters-Sans";
+}
+
+.copyright, .socials, .footsections, .centerhead, .graphs, .clients, .ihead, .itxt, .brands, .articlehead {
     text-align: center;
+}
+
+/*
+START OF THE CONTAINER OF INDEX.HTML
+*/
+
+.abtxt {
     color: white;
-    padding: 20px 10px;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-family: "Roboto";
+    text-align: left;
+    padding: 20px 50px;
 }
 
-.centerheader {
-    text-align: center;
-    font-size: 35px;
-    padding: 20px 0px;
-    font-family: 'nsmbu';
+.aboutsec {
+    font-size: 40px;
 }
 
-.aboutsubhead {
+.ccontainer {
+    margin: 100px 100px;
+}
+
+.abouthead, .abouttext {
+    text-align: left;
+    padding: 30px 0px !important;
+}
+
+.copyrc {
+    font-family: "Roboto";
+    color: white;
+}
+
+.crhead {
+    margin-bottom: 80px;
+}
+
+.crhead2 {
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.newestprojects {
+    border-radius: 15px;
+    background-color: rgb(20,20,20);
+    padding: 20px;
+    margin: 30px 100px;
+    margin-bottom: 70px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.nptxt {
+    margin-left: 20px;
+    margin-bottom: 20px;
     font-size: 25px;
-    color: darkblue;
-    padding: 20px 0px;
-    font-family: 'Roboto';
-    padding-left: 30px;
+    font-weight: bold;
 }
 
-.logouc {
-    text-align: center;
-    padding: 20px 0px;
-    font-size: 30px;
-    background-color: #3a3a3a;
+.projhed {
+    font-family: "Entertainmasters-Sans";
+    font-weight: normal;
+}
+
+.projectsitehead {
+    font-family: "Entertainmasters-Sans";
     color: white;
-    font-family: 'nsmbu';
-}
-
-.textuc {
-    font-family: 'googlesans';
     text-align: center;
+    margin: 0px 50px;
+    font-size: 50px;
+}
+
+.showicon {
+    height: 150px !important;
+}
+
+.projhref:hover {
+    border-radius: 10px;
+    height: 215px;
+}
+
+.newestprojects > a:hover {
+    opacity: 50%;
+}
+
+.newestprojects > a {
+    transition: 0.3s;
+}
+
+.napic {
+    height: 250px;
+}
+
+.projhref {
+    transition: 0.1s;
+    height: 195px;
+    margin: 5px 5px;
+}
+
+.ihead {
+    font-size: 40px;
+}
+
+.mainpagearticle {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./src/efv.png');
+    padding: 400px 0px 0px 0px;
+    margin-bottom: 50px;
+}
+
+.abhead {
+    background-image: url('./src/filmproduction-eeeaad.jpg');
+}
+
+.projectpagearticle {
+    background-image: url('./src/thumbs/6.png');
+}
+
+.efv-label {
+    margin-left: 20px;
+    font-family: "EGM-WhiteNT";
+}
+
+.yticonart {
+    height: 70px;
+    margin-right: 50px;
+}
+
+.blurart {
+    align-self: flex-end;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    backdrop-filter: blur(6px);
+}
+
+.mpahead {
+    padding: 20px 45px;
+    font-size: 35px;
+}
+
+.readarticle {
     font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 69px;
+    padding: 10px 20px;
+    background: #3d87ff;
+    transition: 0.1s;
 }
 
-.hrefuc {
-    font-family: 'googlesans';
-    color: blue;
+.watchvideo:hover {
+    background: rgb(15,15,15);
+    border-color: rgb(100,100,100);
 }
 
-.hrefuc:visited {
-    color: blue;
+.watchvideo {
+    background: rgb(35,35,55) !important;
+    transition: 0.3s;
+    background: transparent;
+    color: white !important;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    border-radius: 69px;
+    padding: 10px 20px;
+    border: 2.7px solid rgb(70,70,70);
+}
+
+.readarticle:hover {
+    opacity: 80%;
+}
+
+.centerhead {
+    font-size: 35px;
+    margin: 30px 0px;
+}
+
+.itxt {
+    padding: 30px 80px;
+    margin-bottom: 30px;
+}
+
+.copyright {
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+.graphs, .clients, .brands {
+    padding: 20px 0px;
+    background-color: #333333;
+}
+  
+.graph, .client1, .client2, .client3, .brand1, .brand2, .brand3, .brand4, .brand5 {
+    flex: 1;
+    font-family: "Product-Sans";
+}
+
+.brands {
+    font-size: 30px;
+}
+
+.brand1, .brand2, .brand5 {
+    font-family: "EGM-Akira";
+}
+
+.brand2 {
+    font-size: 25px;
+}
+  
+.numbergraph {
+    font-family: "Product-Sans";
+    font-size: 30px;
+}
+
+.clients {
+    font-size: 30px;
+}
+
+.client1 {
+    font-size: 35px;
+    font-family: "EGM-WhiteNT";
+    transition: 1s;
+}
+
+.client1:hover {
+    content: "P.X";
+    color: black;
+    font-size: 45px;
+}
+
+.client2 {
+    transition: 1s;
+    font-family: "Roboto";
+}
+
+.smollc2 {
+    font-size: 12px;
+}
+
+.client2:hover {
+    color: steelblue;
+}
+
+/*
+END OF THE CONTAINER OF INDEX.HTML
+*/
+
+.footsections {
+    margin: 0px 100px;
+}
+
+.footsec, .sociallink {
+    flex: 1;
+}
+
+.feetsec {
+    color: rgb(210,210,210);
+    margin-top: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.footlink, .sociallink {
+    font-family: "Roboto";
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.sociallink {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.article {
+    margin: 0px 10px;
+}
+
+.articlehead {
+    font-size: 25px;
+}
+
+.articleimg {
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.efv-label-n {
+    font-family: "EGM-Akira";
+}
+
+/*
+CARRIER STYLE
+*/
+
+.carrierhead {
+    font-family: "Entertainmasters-Sans";
+    margin-bottom: 30px;
+    color: white;
+    font-size: 50px;
+}
+
+.carriertext {
+    margin-bottom: 80px;
+    font-family: "Roboto";
+    color: white;
+    font-size: 16px;
+}
+
+.opening {
+    padding: 30px;
+    display: inline-block;
+    background-color: rgb(70,70,70);
+    margin: 15px 0px;
+    border-radius: 15px;
+}
+
+.opensec {
+    font-family: "Roboto";
+    color: white;  
+    font-size: 20px;
+    padding: 30px 0px;
+}
+
+.openname {
+    font-family: "Entertainmasters-Sans";
+    margin-bottom: 15px;
+    color: white;
+    font-size: 30px;
+}
+
+.openprop {
+    font-family: "Roboto";
+    color: white;
+    font-size: 14px;
+}
+
+.openpropimg {
+    margin: 0px 10px;
+    height: 20px;
+}
+
+.cutxt {
+    text-align: center;
+    font-family: "Entertainmasters-Sans";
+    margin-bottom: 150px;
+    color: white;
+    font-size: 70px;
+}
+
+.cumeds {
+    text-align: center;
+}
+
+.cuimg {
+    margin: 0px 100px;
+    height: 200px;
+}
+
+.impresshead {
+    font-size: 60px;
+    font-family: "Entertainmasters-Sans";
+    margin-bottom: 100px;
+}
+
+.lthead {
+    color: white;
+    font-size: 30px;
+    font-family: "Entertainmasters-Sans";
+    margin-bottom: 30px;
+}
+
+.latesttweet, .latesttweet > a, .latesttweet > a:visited {
+    color: transparent;
+    text-align: center;
 }
