@@ -6,40 +6,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--  Geo routing language links for SEO -->
-    
-    <link rel="alternate" hreflang="de-DE" href="de/index.html"/>
-    <link rel="alternate" hreflang="x-default" href="../index.html"/>
-
-
     <link rel="stylesheet" href="style.css">  
-    
-    <link rel="icon" type="image/png" href="favicon.png">
-    <title>Sorry - Entertainmasters</title>
-
-     <!--  SEO: Embeding Sites on other plattforms -->
-
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:site" content="@OficialEMTweet"/>
-    <meta name="twitter:title" content="Entertainmasters: we want to deliver high quallity content"/>
-    <meta name="twitter:description" content="Entertainmasters creates high-quallity content"/>
-
-    <meta property="og:locale" content="en-us">
-    <meta property="og:site_name" content="Entertainmasters">
-    <meta content="Entertainmasters Startsite" property="og:title">
-    <meta content="Entertainmasters Startsite we want to deliver high quallity content" property="og:description">
-    <meta content="#3492eb" data-react-helmet="true" name="theme-color">
-    <meta name="keywords" content="Entertainmasters, Entertainmasters GmbH, Agesoft, EGM, Anime">
-    
+    <link rel="stylesheet" href="mobile.css">  
+    <link rel="icon" type="image/png" href="./src/favicon.png">
+    <title>Entertainmasters</title>
+    <script src="./SiteHelper.js" defer></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </head>
 <body>
-    <div class="heading">
-        <p class="logouc">Entertainmasters</p>
-    </div>
-    <p class="centerheader">Sorry</p>
-    <p class="textuc">This Site is comming soon we're just preparing the sites for you if you have any questions Join Our<a class="hrefuc" href="https://discord.gg/tEsvwYx"> Discord Server</a></p>
 
-    <p class="foot">© 2017-2021 Entertainmasters</p>
+    <header id="header"></header>
+    <em-fixedheader-fix></em-fixedheader-fix>
+
+    <div class="mainpagearticle">
+        <p class="mpahead blurart"><b class="efv-label">EFV</b> Entertainment's Funniest Videos <br><button class="readarticle" onclick="window.location.href = './news/hello-efv.html'">Read <b>ᐳ</b></button></p> 
+    </div>
+
+    <p class="ihead">Creating <b>Entertainment</b> with <b>Love</b></p>
+    <p class="itxt">We're one of the youngest movie production team based in the wonderful city of Munich, Germany. We're young movie enthusiasts, animators and artists who love to make movies, animes / animations and profesional videos also<br>
+    We're Gen-Z People with humor and love and create memes. we own meme brands, IT Brands & Music Brands to make movie production easy as possible.</p>
+
+    <div class="newestprojects">
+        <p class="nptxt">Projects:</p>
+        <a href="https://www.youtube.com/@CentralOfMemes"><img src="./src/CentralOfMemesPoster.png" class="napic"></a>
+        <img src="./src/poster.png" class="napic">
+        <a href="projects.html"><img src="./src/MorePoster.png" class="napic"></a>
+    </div>
+
+    <div class="latesttweet">
+        <p class="lthead">Latest Tweet:</p>
+
+        <blockquote class="twitter-tweet tw-align-center" data-theme="dark"><p lang="en" dir="ltr">Brand here. My boss approves this <a href="https://t.co/XxP3qVrJ0g">pic.twitter.com/XxP3qVrJ0g</a></p>&mdash; Entertainmasters (@OficialEMTweet) <a href="https://twitter.com/OficialEMTweet/status/1635988987918667779?ref_src=twsrc%5Etfw">March 15, 2023</a></blockquote>
+    </div><br><br>
+    <footer id="footer"></footer>
 </body>
 </html>

@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Entertainmasters-Sans";
+    src: url('./fonts/EM-SANS.ttf');
+}
+
+@font-face {
+    font-family: "Oswalt";
+    src: url('./fonts/Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Product-Sans";
+    src: url('./fonts/Product\ Sans\ Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('./fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "EGM-WhiteNT";
+    src: url('./fonts/White_NT.otf');
+}
+
+@font-face {
+    font-family: "EGM-Akira";
+    src: url('./fonts/Akira\ Expanded\ Demo.otf');
+}
+
+.container {
+    margin: 100px 100px;
+}
+
+.emnews, .newsheader {
+    color: white;
+    font-family: "Entertainmasters-Sans";
+}
+
+.emnews {
+    font-size: 30px;
+}
+
+.newsheader {
+    margin: 50px 0px;
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+.newsdate {
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.efv-label-n {
+    font-family: "EGM-Akira";
+}
+
+.newstext {
+    font-size: 20px;
+    font-family: "Roboto";
+    color: white;
+    margin-bottom: 40px;
+}
+
+.newshref, .newshref:visited {
+    color: #77BFBF;
+}
+
+.efv-news-smoll-italic {
+    font-style: italic;
+    font-size: 16px;
+}
