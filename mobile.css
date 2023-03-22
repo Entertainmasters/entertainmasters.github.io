@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url('./fonts/Montserrat-Bold.ttf');
+    font-weight: 600;
+}
+
 @media only screen and (max-width: 500px) {
     header {
         font-size: 20px;
@@ -27,6 +33,8 @@
         text-align: center;
         padding: 30px 15px;
     }
+
+    /* THIS REQUIRES OPTIMIZATION!! */
 
     .newestprojects {
         margin: 30px 15px !important;
@@ -74,5 +82,34 @@
 
     .projectsitehead {
         font-size: 30px !important;
+    }
+
+    .copyright {
+        font-family: "Montserrat" !important;
+        font-size: 12px !important;
+    }
+
+    .orgastruct {
+        height: 200px !important;
+    }
+
+    .orgagroup, .orgahead, .orgaem, .orgab {
+        display: block !important;
+        text-align: left !important;
+        font-size: 18px !important;
+    }
+
+    .orgab {
+        margin: 10px 0px !important;
+    }
+
+    .orgaem {
+        margin: 10px 0px !important;
+        font-size: 25px !important;
+        text-align: left !important;
+    }
+
+    .osr {
+        font-size: 25px !important;
     }
 }

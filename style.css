@@ -40,6 +40,12 @@
     font-weight: 600;
 }
 
+@font-face {
+    font-family: "DancingScript";
+    src: url('./fonts/DancingScript-Regular.ttf');
+    font-weight: 600;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -139,13 +145,17 @@ header, .mainpagearticle, .graphs, .socials, .clients, .footsections, .brands, .
     text-align: center;
 }
 
+.centre {
+    text-align: center;
+}
+
 /*
 START OF THE CONTAINER OF INDEX.HTML
 */
 
 .abtxt {
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     font-family: "Roboto";
     text-align: left;
     padding: 20px 50px;
@@ -515,4 +525,57 @@ CARRIER STYLE
 .latesttweet, .latesttweet > a, .latesttweet > a:visited {
     color: transparent;
     text-align: center;
+}
+
+.dochref, .dochref:visited {
+    color: #2fa7f7;
+}
+
+.orgastruct {
+    height: 580px;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.orgahead, .orgagroup {
+    color: white;
+    text-align: center;
+    font-family: "Entertainmasters-Sans";
+    font-size: 30px;
+}
+
+.orgahead {
+    margin: 30px 0px;
+    font-family: "Montserrat";
+}
+
+.orgagroup > p {
+    display: inline;
+    margin: 30px 50px;
+}
+
+.orgab {
+    font-size: 25px;
+}
+
+.orgagroup > .osr {
+    font-size: 35px;
+    font-family: "DancingScript";
+}
+
+.orgagroup > .oegm {
+    font-family: "EGM-Akira";
+    font-size: 40px;
+}
+
+.orgagroup > .oas {
+    font-family: "Product-Sans";
+}
+
+.orgagroup > .oemm {
+    font-family: "Montserrat";
+}
+
+.orgaem {
+    font-size: 42px;
 }
