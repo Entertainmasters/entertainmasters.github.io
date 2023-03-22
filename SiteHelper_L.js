@@ -35,7 +35,7 @@ const FooterHTML = `
         <p class="copyright">&copy; Entertainmasters 2017 - 2023</p>
 
         <div class="socials">
-            <a href="" class="sociallink">Youtube</a>
+            <a href="https://www.youtube.com/@Entertainmasters" class="sociallink">Youtube</a>
             <a href="https://twitter.com/OficialEMTweet" class="sociallink">Twitter</a>
             <a href="https://discord.gg/tEsvwYx" class="sociallink">Discord</a>
         </div>

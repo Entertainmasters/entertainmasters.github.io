@@ -23,7 +23,8 @@
     }
 
     .itxt {
-        text-align: left;
+        font-size: 14px;
+        text-align: center;
         padding: 30px 15px;
     }
 
@@ -65,5 +66,13 @@
 
     .newstext, .efv-news-smoll-italic {
         font-size: 14px;
+    }
+
+    .projhref, .showicon {
+        height: 100px !important;
+    }
+
+    .projectsitehead {
+        font-size: 30px !important;
     }
 }
