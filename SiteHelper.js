@@ -32,7 +32,7 @@ const FooterHTML = `
             </div>
         </div>
 
-        <p class="copyright">&copy; Copyright 2017 - 2023 Entertainmasters. All Rights Reserved.</p>
+        <p class="copyright">&copy; Copyright 2017 - ${new Date().getFullYear().toString()} Entertainmasters. All Rights Reserved.</p>
 
         <div class="socials">
             <a href="https://www.youtube.com/@Entertainmasters" class="sociallink">Youtube</a>
