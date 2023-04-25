@@ -267,6 +267,14 @@ START OF THE CONTAINER OF INDEX.HTML
     background-image: url('./src/thumbs/9.png');
 }
 
+.emrpageheader {
+    background-image: url("./src/thumbs/EMR2022.png");
+}
+
+.emrindpageheader {
+    background-image: url("./src/Fireworks.gif");
+}
+
 .efv-label {
     margin-left: 20px;
     font-family: "EGM-WhiteNT";
@@ -579,4 +587,22 @@ CARRIER STYLE
 
 .orgaem {
     font-size: 42px;
+}
+
+.emrsoundproviderNCS, .emrsoundproviderSR, .emrsoundproviderEMM {
+    margin-top: 20px;
+    font-size: 45px;
+    color: white;
+}
+
+.emrsoundproviderNCS {
+    font-family: "Montserrat";
+}
+
+.emrsoundproviderSR {
+    font-family: "DancingScript";
+}
+
+.emrsoundproviderEMM {
+    font-family: "Entertainmasters-Sans";
 }

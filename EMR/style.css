@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "EMSans";
+    src: url('./fonts/New\ Super\ Mario\ Font\ U.ttf');
+}
+
+@font-face {
+    font-family: "Montserrant";
+    src: url('./fonts/Montserrat-Bold.ttf');
+}
+
+body {
+    background: url('./src/Fireworks.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 97vh;
+}
+
+#countdown {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: rgba(0,0,0,0.5);
+}
+
+#countdown > p {
+    transition: all 0.5s ease;
+    display: inline-block;
+    margin: 0px 30px;
+    font-family: "EMSans";
+    color: white;
+    font-size: 150px;
+}
+
+#hashtag {
+    text-align: right;
+    font-family: 'Impact';
+    font-size: 60px;
+    opacity: 40%;
+    color: white;
+    margin: 20px;
+}
+
+#copyr {
+    font-family: "Montserrant";
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    #countdown > p {
+        font-size: 25px;
+        margin: 0px 5px;
+    }
+
+    #hashtag {
+        font-size: 40px;
+    }
+
+    #copyr {
+        text-align: center;
+        font-size: 12px;
+    }
+}

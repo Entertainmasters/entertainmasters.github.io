@@ -30,8 +30,8 @@
 
     .itxt {
         font-size: 14px;
-        text-align: center;
-        padding: 30px 15px;
+        text-align: center !important;
+        padding: 30px 15px !important;
     }
 
     /* THIS REQUIRES OPTIMIZATION!! */
@@ -116,5 +116,9 @@
     .mpahead, .yticonart {
         text-align: center !important;
         font-size: 20px !important;
+    }
+
+    .emrsoundproviderNCS, .emrsoundproviderSR, .emrsoundproviderEMM {
+        font-size: 30px !important;
     }
 }
