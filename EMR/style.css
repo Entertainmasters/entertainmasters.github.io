@@ -1,15 +1,20 @@
 @font-face {
     font-family: "EMSans";
-    src: url('./fonts/New\ Super\ Mario\ Font\ U.ttf');
+    src: url('../fonts/New\ Super\ Mario\ Font\ U.ttf');
 }
 
 @font-face {
     font-family: "Montserrant";
-    src: url('./fonts/Montserrat-Bold.ttf');
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Impact";
+    src: url('../fonts/impact.ttf');
 }
 
 body {
-    background: url('./src/Fireworks.gif');
+    background: url('../src/Fireworks.gif');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
