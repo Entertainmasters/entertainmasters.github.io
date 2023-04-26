@@ -1,0 +1,31 @@
+.carriercontainer {
+    padding: 100px 80px;
+}
+
+.carriertitle {
+    font-family: "Entertainmasters-Sans";
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.carrierdesc {
+    color: white;
+    font-family: "Roboto";
+}
+
+.carrierpart {
+    font-size: 20px;
+    margin: 20px 0px;
+    color: white;
+    font-family: "Montserrat";
+}
+
+.clpoint {
+    font-family: "Roboto";
+    color: white;
+}
+
+.carrierlist {
+    margin-bottom: 50px;
+}
