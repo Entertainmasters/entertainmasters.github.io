@@ -189,10 +189,8 @@ START OF THE CONTAINER OF INDEX.HTML
 }
 
 .newestprojects {
-    border-radius: 15px;
-    background-color: rgb(20,20,20);
     padding: 20px;
-    margin: 30px 100px;
+    margin: 30px 70px;
     margin-bottom: 70px;
     overflow-x: auto;
     overflow-y: hidden;

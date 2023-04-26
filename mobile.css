@@ -121,4 +121,9 @@
     .emrsoundproviderNCS, .emrsoundproviderSR, .emrsoundproviderEMM {
         font-size: 30px !important;
     }
+
+    .nptxt {
+        margin: 30px !important;
+        font-size: 20px !important;
+    }
 }
