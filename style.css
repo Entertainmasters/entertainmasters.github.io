@@ -86,10 +86,14 @@ header {
 .logo, .logo:visited {
     cursor: pointer;
     font-size: 25px;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
-.logo:hover, a:hover {
+.logo:hover {
+    opacity: 50%;
+}
+
+a:hover {
     opacity: 70%;
 }
 
@@ -137,7 +141,7 @@ header, .mainpagearticle, .graphs, .socials, .clients, .footsections, .brands, .
     display: flex;
 }
 
-.logo, .readarticle, .mpahead, .logo, .copyright, .centerhead-nr, .articlehead, .aboutsec {
+.logo, .mpahead, .logo, .copyright, .centerhead-nr, .articlehead, .aboutsec, .centerhead {
     font-family: "Entertainmasters-Sans";
 }
 
@@ -235,13 +239,28 @@ START OF THE CONTAINER OF INDEX.HTML
 }
 
 .napic {
-    height: 250px;
+    height: 150px;
+}
+
+.moreposter {
+    margin-left: 30px;
+    height: 150px;
 }
 
 .projhref {
     transition: 0.1s;
     height: 195px;
     margin: 5px 5px;
+}
+
+.iconhref {
+    transition: 0.1s;
+    margin: 5px 5px;
+}
+
+.iconhref:hover {
+    opacity: 50%;
+    transform: scale(1.05);
 }
 
 .ihead {
@@ -296,13 +315,19 @@ START OF THE CONTAINER OF INDEX.HTML
 }
 
 .readarticle {
-    font-size: 20px;
+    transition: 0.3s;
+    font-family: "Montserrat";
+    font-size: 14px;
     margin-top: 20px;
     border: none;
     border-radius: 69px;
-    padding: 10px 20px;
-    background: #3d87ff;
+    padding: 10px 40px;
+    background: #1f75ff;
     transition: 0.1s;
+}
+
+.readarticle:hover {
+    opacity: 80%;
 }
 
 .watchvideo:hover {
@@ -321,10 +346,6 @@ START OF THE CONTAINER OF INDEX.HTML
     border-radius: 69px;
     padding: 10px 20px;
     border: 2.7px solid rgb(70,70,70);
-}
-
-.readarticle:hover {
-    opacity: 80%;
 }
 
 .centerhead {
@@ -501,7 +522,7 @@ CARRIER STYLE
 .cutxt {
     text-align: center;
     font-family: "Entertainmasters-Sans";
-    margin-bottom: 150px;
+    margin-bottom: 20px;
     color: white;
     font-size: 70px;
 }

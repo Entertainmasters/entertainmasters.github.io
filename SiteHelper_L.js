@@ -10,8 +10,8 @@ const HeaderHTML = `
             <p class="logo">Entertainmasters</p>
         </a>
         <ul class="nav_links">
-            <li><a href="../about.html">About</a></li>
-            <li><a href="../projects.html">Projects</a></li>
+        <li><a href="../projects.html">Projects</a></li>
+        <li><a href="../about.html">About</a></li>
             <li><a href="../contact.html">Contact</a></li>
         </ul>
 `
