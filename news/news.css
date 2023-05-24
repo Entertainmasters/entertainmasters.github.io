@@ -1,31 +1,21 @@
 @font-face {
     font-family: "Entertainmasters-Sans";
-    src: url('./fonts/EM-SANS.ttf');
-}
-
-@font-face {
-    font-family: "Oswalt";
-    src: url('./fonts/Oswald-Regular.ttf');
-}
-
-@font-face {
-    font-family: "Product-Sans";
-    src: url('./fonts/Product\ Sans\ Regular.ttf');
+    src: url('../fonts/EM-SANS.ttf');
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url('./fonts/Roboto-Regular.ttf');
+    src: url('../fonts/Roboto-Regular.ttf');
 }
 
 @font-face {
     font-family: "EGM-WhiteNT";
-    src: url('./fonts/White_NT.otf');
+    src: url('../fonts/White_NT.otf');
 }
 
 @font-face {
     font-family: "EGM-Akira";
-    src: url('./fonts/Akira\ Expanded\ Demo.otf');
+    src: url('../fonts/Akira\ Expanded\ Demo.otf');
 }
 
 .container {

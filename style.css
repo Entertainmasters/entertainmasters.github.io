@@ -116,12 +116,12 @@ ScrollBars
 */
 
 ::-webkit-scrollbar {
-    background: rgb(20,20,30);
+    background: #00060f;
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: rgb(40,40,80);
+    background: #4d4d4d;
 }
 
 /*
@@ -194,7 +194,7 @@ START OF THE CONTAINER OF INDEX.HTML
 
 .newestprojects {
     padding: 20px;
-    margin: 30px 70px;
+    margin: 30px 50px;
     margin-bottom: 70px;
     overflow-x: auto;
     overflow-y: hidden;
@@ -225,9 +225,17 @@ START OF THE CONTAINER OF INDEX.HTML
     height: 150px !important;
 }
 
+.projhref {
+    transition: 0.1s;
+    height: 235px;
+    border-radius: 15px;
+    margin: 5px 10px;
+}
+
 .projhref:hover {
-    border-radius: 10px;
-    height: 205px;
+    border-radius: 30px;
+    opacity: 80%;
+    transform: scale(1.05);
 }
 
 .newestprojects > a:hover {
@@ -244,13 +252,13 @@ START OF THE CONTAINER OF INDEX.HTML
 
 .moreposter {
     margin-left: 30px;
-    height: 150px;
+    height: 170px;
+    transition: 0.1s;
 }
 
-.projhref {
-    transition: 0.1s;
-    height: 195px;
-    margin: 5px 5px;
+.moreposter:hover {
+    opacity: 70%;
+    transform: scale(1.05);
 }
 
 .iconhref {
@@ -337,7 +345,7 @@ START OF THE CONTAINER OF INDEX.HTML
 
 .watchvideo {
     background: rgb(35,35,55) !important;
-    transition: 0.3s;
+    transition: 0.1s;
     background: transparent;
     color: white !important;
     font-size: 14px;
@@ -363,12 +371,53 @@ START OF THE CONTAINER OF INDEX.HTML
     font-size: 18px;
 }
 
-.graphs, .clients, .brands {
+.graphs {
+    display: flex; 
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.clients, .brands {
     padding: 20px 0px;
-    background-color: #333333;
+}
+
+.graph {
+    padding: 80px;
+    border-radius: 50%;
+    width: 300px;
+}
+
+.red-graph {
+    background: linear-gradient(90deg, rgba(255,98,98,1) 0%, rgba(196,59,147,1) 100%);
+    color: darkred;
+}
+
+.blue-graph {
+    background: linear-gradient(90deg, rgba(0,104,255,1) 0%, rgba(128,222,255,1) 100%);
+    color: darkblue;
+}
+
+.green-graph {
+    background: linear-gradient(90deg, rgba(0,255,136,1) 0%, rgba(39,134,145,1) 100%);
+    color: darkslategrey;
+}
+
+.yellow-graph {
+    background: linear-gradient(90deg, rgba(255,211,98,1) 0%, rgba(177,196,59,1) 100%);
+    color: #543f09;
+}
+
+.numbergraph {
+    font-family: "Montserrat";
+    font-size: 80px;
+}
+
+.graphtitle {
+    font-size: 18px;
+    font-family: "Montserrat";
 }
   
-.graph, .client1, .client2, .client3, .brand1, .brand2, .brand3, .brand4, .brand5 {
+.client1, .client2, .client3, .brand1, .brand2, .brand3, .brand4, .brand5 {
     flex: 1;
     font-family: "Product-Sans";
 }
@@ -383,11 +432,6 @@ START OF THE CONTAINER OF INDEX.HTML
 
 .brand2 {
     font-size: 25px;
-}
-  
-.numbergraph {
-    font-family: "Product-Sans";
-    font-size: 30px;
 }
 
 .clients {
