@@ -35,10 +35,10 @@ const FooterHTML = `
         <p class="copyright">&copy; Copyright 2017 - ${new Date().getFullYear().toString()} Entertainmasters. All Rights Reserved.</p>
 
         <div class="socials">
-            <a href="https://www.youtube.com/@Entertainmasters" class="sociallink"><img class="footersocial" src="../src/youtubelogo.png" height="30"></a>
-            <a href="https://twitter.com/OficialEMTweet" class="sociallink"><img class="footersocial" src="../src/twitterlogo.png" height="30"></a>
-            <a href="https://discord.gg/tEsvwYx" class="sociallink"><img class="footersocial" src="../src/discordlogo.png" height="40"></a>
-            <a href="https://instagram.com/entertainmastersig" class="sociallink"><img class="footersocial" src="../src/instagramlogo.png" height="30"></a>
+            <a href="https://www.youtube.com/@Entertainmasters" class="sociallink"><img class="footersocial" alt="Entertainmasters Youtube Link" src="../src/youtubelogo.png" height="30"></a>
+            <a href="https://twitter.com/OficialEMTweet" class="sociallink"><img class="footersocial" alt="Entertainmasters Twitter Link" src="../src/twitterlogo.png" height="30"></a>
+            <a href="https://discord.gg/tEsvwYx" class="sociallink"><img class="footersocial" alt="Entertainmasters Discord Link" src="../src/discordlogo.png" height="40"></a>
+            <a href="https://instagram.com/entertainmastersig" class="sociallink"><img class="footersocial" alt="Entertainmasters Instagram Link" src="../src/instagramlogo.png" height="30"></a>
         </div>
 `
 
