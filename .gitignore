@@ -1,2 +1,4 @@
 # Annoying
 *.db
+src/*.db
+src/Thumbs.db
