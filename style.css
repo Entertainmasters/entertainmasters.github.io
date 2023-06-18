@@ -1,7 +1,6 @@
 /*
     style.css | the stylesheet for everything in the site
     Copyright Entertainmasters & Copy05 2017 - 2023
-
 */
 
 @font-face {
@@ -61,9 +60,9 @@ body {
 }
 
 li > a {
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
-    font-family: "Product-Sans";
+    font-family: "Montserrat";
 }
 
 header > li, a {
@@ -97,12 +96,17 @@ a:hover {
     opacity: 70%;
 }
 
+.nav_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
 .nav_links li {
     display: inline-block;
-    justify-content: space-around;
     padding: 0px 20px;
 }
-
+  
 footer {
     background-color: rgb(45,45,45);
 }
@@ -122,6 +126,28 @@ ScrollBars
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background: #4d4d4d;
+}
+
+/*
+GLOBAL CSS - KEK
+*/
+
+/* See: https://github.com/AgesoftOSS/KEK for the whole CSS Framework */
+
+.text_white {
+    color: white;
+}
+
+.font_emsans {
+    font-family: "Entertainmasters-Sans";
+}
+
+.font_center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
 }
 
 /*
@@ -668,4 +694,10 @@ CARRIER STYLE
 
 .emrsoundproviderEMM {
     font-family: "Entertainmasters-Sans";
+}
+
+.impressdata_bold {
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
 }

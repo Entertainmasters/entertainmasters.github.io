@@ -1,10 +1,12 @@
 RewriteEngine on
 
-# 404 Errror
+# 404 Error
 ErrorDocument 404 /404.html
 
-# hiding .html in url
+# 400 Bad Request
+ErrorDocument 400 /400.html
 
+# Hiding .html in URL
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]

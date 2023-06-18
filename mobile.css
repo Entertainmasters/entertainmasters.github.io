@@ -1,8 +1,4 @@
-@font-face {
-    font-family: "Montserrat";
-    src: url('./fonts/Montserrat-Bold.ttf');
-    font-weight: 600;
-}
+@import url(style.css);
 
 @media only screen and (max-width: 500px) {
 
@@ -10,7 +6,7 @@
 
     header {
         font-size: 20px;
-        display: block;
+        display: block !important;
         text-align: center;
     }
 
