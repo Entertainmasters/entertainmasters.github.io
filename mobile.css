@@ -174,4 +174,16 @@
         margin: 30px !important;
         font-size: 20px !important;
     }
+
+    .opening {
+        flex-direction: column !important;
+    }
+
+    .openprops {
+        line-height: 1.5;
+    }
+
+    .openname {
+        width: 100% !important;
+    }
 }

@@ -134,6 +134,11 @@ GLOBAL CSS - KEK
 
 /* See: https://github.com/AgesoftOSS/KEK for the whole CSS Framework */
 
+.pad-y-4 {
+    padding-bottom: 1.875rem !important;
+    padding-top: 1.875rem !important;
+}
+
 .text_white {
     color: white;
 }
@@ -556,12 +561,16 @@ CARRIER STYLE
     font-size: 16px;
 }
 
+.openings {
+    padding: 1.5rem;
+}
+
 .opening {
-    padding: 30px;
-    display: inline-block;
-    background-color: rgb(70,70,70);
+    display: flex;
+    padding: 1.53rem 0px;
     margin: 15px 0px;
-    border-radius: 15px;
+    border-bottom: 1px solid #434549 !important;
+    border-bottom-color: rgb(117, 109, 96) !important;
 }
 
 .opensec {
@@ -572,16 +581,21 @@ CARRIER STYLE
 }
 
 .openname {
-    font-family: "Entertainmasters-Sans";
-    margin-bottom: 15px;
+    width: 50%;
+    font-family: "Roboto";
     color: white;
-    font-size: 30px;
+    font-size: 16px;
+}
+
+.openprops {
+    width: 50%;
 }
 
 .openprop {
     font-family: "Roboto";
     color: white;
-    font-size: 14px;
+    font-size: 16px;
+    white-space: nowrap;
 }
 
 .openpropimg {
