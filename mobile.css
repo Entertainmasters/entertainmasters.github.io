@@ -184,6 +184,7 @@
     }
 
     .openname {
+        margin-left: 0rem !important;
         width: 100% !important;
     }
 }

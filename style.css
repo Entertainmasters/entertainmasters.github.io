@@ -581,6 +581,7 @@ CARRIER STYLE
 }
 
 .openname {
+    margin-left: 1.5rem;
     width: 50%;
     font-family: "Roboto";
     color: white;
