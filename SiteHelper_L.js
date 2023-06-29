@@ -1,7 +1,3 @@
-/**
- * Copyright Entertainmasters 2021 - 2023
- */
-
 const Footer = document.getElementById("footer")
 const Header = document.getElementById("header")
 
@@ -28,7 +24,7 @@ const FooterHTML = `
                 <p class="feetsec">Legal:</p>
                 <a href="../privacy.html" class="footlink">Privacy</a><br>
                 <a href="../copyright.html" class="footlink">Copyright</a><br>
-                <a href="../impress.html" class="footlink">Impress</a>
+                <a href="../impress.html" class="footlink">Imprint</a>
             </div>
         </div>
 
