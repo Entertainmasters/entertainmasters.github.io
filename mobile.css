@@ -1,4 +1,4 @@
-@import url(style.css);
+@import url("style.css");
 
 @media only screen and (max-width: 500px) {
 
@@ -31,6 +31,12 @@
         font-size: 14px;
         text-align: center !important;
         padding: 30px 15px !important;
+    }
+
+    /* KEK */
+
+    .desktop_flex {
+        display: block !important;
     }
 
     /* THIS REQUIRES OPTIMIZATION!! */

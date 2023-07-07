@@ -140,19 +140,25 @@ GLOBAL CSS - KEK
 }
 
 .text_white {
-    color: white;
+    color: white !important;
 }
 
 .font_emsans {
-    font-family: "Entertainmasters-Sans";
+    font-family: "Entertainmasters-Sans" !important;
 }
 
 .font_center {
-    text-align: center;
+    text-align: center !important;
 }
 
 .flex {
-    display: flex;
+    display: flex !important;
+}
+
+.desktop_flex {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 /*
@@ -403,7 +409,8 @@ START OF THE CONTAINER OF INDEX.HTML
 }
 
 .graphs {
-    display: flex; 
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     margin: 50px;
 }
