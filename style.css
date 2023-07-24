@@ -316,7 +316,7 @@ START OF THE CONTAINER OF INDEX.HTML
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./src/emr2023prepnr.png');
+    background-image: url('./src/ImprovityXNews.png');
     padding: 400px 0px 0px 0px;
     margin-bottom: 50px;
 }
@@ -728,3 +728,7 @@ CARRIER STYLE
     font-weight: bold;
 }
 
+.emsans-label-n {
+    font-weight: normal;
+    font-family: "Entertainmasters-Sans";
+}

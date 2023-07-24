@@ -24,7 +24,7 @@ const FooterHTML = `
                 <p class="feetsec">Legal:</p>
                 <a href="privacy.html" class="footlink">Privacy</a><br>
                 <a href="copyright.html" class="footlink">Copyright</a><br>
-                <a href="impress.html" class="footlink">Imprint</a>
+                <a href="imprint.html" class="footlink">Imprint</a>
             </div>
         </div>
 
