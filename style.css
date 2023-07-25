@@ -316,7 +316,7 @@ START OF THE CONTAINER OF INDEX.HTML
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./src/ImprovityXNews.png') !important;
+    background-image: url('./src/ImprovityXNews.png');
     padding: 400px 0px 0px 0px;
     margin-bottom: 50px;
 }
