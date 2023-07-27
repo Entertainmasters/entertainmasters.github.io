@@ -283,13 +283,12 @@ START OF THE CONTAINER OF INDEX.HTML
     transition: 0.3s;
 }
 
-.napic {
-    height: 150px;
+.napic, .moreposter {
+    height: 350px;
 }
 
 .moreposter {
     margin-left: 30px;
-    height: 170px;
     transition: 0.1s;
 }
 
