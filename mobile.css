@@ -124,8 +124,12 @@
         margin: 5px 5px !important;
     }
 
-    .napic, .moreposter {
+    .posterhref, .moreposter {
         height: 250px !important;
+    }
+
+    .napic {
+        height: 100px !important;
     }
 
     .projectsitehead {
