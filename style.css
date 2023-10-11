@@ -735,3 +735,16 @@ CARRIER STYLE
     font-weight: normal;
     font-family: "Entertainmasters-Sans";
 }
+
+.fadeinanim {
+    animation: fadein 0.5s ease-in;
+}
+
+.fadeinanim-short {
+    animation: fadein 0.3s ease-in;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
