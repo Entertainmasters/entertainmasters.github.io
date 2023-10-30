@@ -264,7 +264,7 @@ START OF THE CONTAINER OF INDEX.HTML
 
 .projhref {
     transition: 0.2s;
-    height: 235px;
+    height: 200px;
     border-radius: 15px;
     margin: 5px 10px;
 }
@@ -284,7 +284,7 @@ START OF THE CONTAINER OF INDEX.HTML
 }
 
 .posterhref, .moreposter {
-    height: 350px;
+    height: 300px;
 }
 
 .napic {
@@ -319,9 +319,13 @@ START OF THE CONTAINER OF INDEX.HTML
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./src/ImprovityXNews.png');
+    background-image: url('./src/Fireworks.gif');
     padding: 400px 0px 0px 0px;
     margin-bottom: 50px;
+}
+
+.mainpagearticle > .efv-label-n {
+    margin-bottom: 30px;
 }
 
 .abhead {
@@ -628,7 +632,7 @@ CARRIER STYLE
 
 .cuimg {
     margin: 0px 100px;
-    height: 200px;
+    height: 130px;
 }
 
 .impresshead {
@@ -742,6 +746,10 @@ CARRIER STYLE
 
 .fadeinanim-short {
     animation: fadein 0.3s ease-in;
+}
+
+.emrschedule2023 {
+    height: 600px;
 }
 
 @keyframes fadein {
