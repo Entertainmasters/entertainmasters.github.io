@@ -37,6 +37,10 @@
         display: block !important;
     }
 
+    .mobile-center {
+        text-align: center !important;
+    }
+
     /* THIS REQUIRES OPTIMIZATION!! */
 
     .newestprojects::-webkit-scrollbar {
@@ -198,5 +202,27 @@
 
     .emrschedule2023 {
         height: 200px !important;
+    }
+
+    .mklogos {
+        display: block !important;
+        text-align: left !important;
+    }
+
+    .mkem1 {
+        height: 80px !important;
+        margin: 20px 10px !important;
+    }
+
+    .mkhead {
+        font-size: 30px !important;
+    }
+
+    .mkcontainer {
+        margin: 120px 40px !important;
+    }
+
+    .mklinkshref {
+        text-align: center !important;
     }
 }

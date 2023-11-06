@@ -161,6 +161,14 @@ GLOBAL CSS - KEK
     justify-content: center !important;
 }
 
+.align-left {
+    text-align: left !important;
+}
+
+.display-block {
+    display: block !important;
+}
+
 /*
 GLOBAL CSS
 */
@@ -750,6 +758,58 @@ CARRIER STYLE
 
 .emrschedule2023 {
     height: 600px;
+}
+
+.mktxt {
+    margin-left: 20px;
+    margin-top: 80px;
+    font-family: "Roboto";
+    color: white;
+}
+
+.newshref, .newshref:visited {
+    color: #77BFBF;
+    font-family: "Entertainmasters-Sans";
+}
+
+.mklinkshref, .mklinkshref:visited {
+    display: inline-block;
+    font-family: "Montserrat";
+    color: #1f75ff;
+    border: solid 1px #1f75ff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.mkheader {
+    font-family: "Montserrat";
+    color: white;
+    font-size: 20px;
+}
+
+.mkred, .mkblue {
+    font-family: "Montserrat";
+    color: white;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.mkred {
+    background: #ff2b2b;
+}
+
+.mkblue {
+    background: #3d5dff;
+}
+
+.mkem1 {
+    margin: 20px 50px;
+    height: 100px;
+}
+
+.mklogos {
+    text-align: center;
 }
 
 @keyframes fadein {
