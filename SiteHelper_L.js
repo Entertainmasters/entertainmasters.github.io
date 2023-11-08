@@ -14,6 +14,10 @@ const HeaderHTML = `
 
 const FooterHTML = `
 <div class="footsections">
+
+<div class="fticon desktop_only">
+    <img class="footericon" src="../src/Mediakit/Wsauuasfus.png">
+</div>
             <div class="footsec">
                 <p class="feetsec">Company:</p>
                 <a href="../carriers.html" class="footlink">Carriers</a><br>

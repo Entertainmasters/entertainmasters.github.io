@@ -643,10 +643,10 @@ CARRIER STYLE
     height: 130px;
 }
 
-.impresshead {
+.imprinthead {
     font-size: 60px;
     font-family: "Entertainmasters-Sans";
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .lthead {
@@ -737,9 +737,13 @@ CARRIER STYLE
     font-family: "Entertainmasters-Sans";
 }
 
-.impressdata_bold {
+.imprintdata {
+    font-size: 18px;
+}
+
+.imprintdata_bold {
     margin: 10px 0px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -810,6 +814,11 @@ CARRIER STYLE
 
 .mklogos {
     text-align: center;
+}
+
+.footericon {
+    margin: 20px 100px;
+    height: 80px;
 }
 
 @keyframes fadein {
