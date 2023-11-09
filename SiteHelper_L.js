@@ -16,7 +16,7 @@ const FooterHTML = `
 <div class="footsections">
 
 <div class="fticon desktop_only">
-    <img class="footericon" src="../src/Mediakit/Wsauuasfus.png">
+    <img alt="Entertainmasters Logo" class="footericon" src="../src/Mediakit/Wsauuasfus.png">
 </div>
             <div class="footsec">
                 <p class="feetsec">Company:</p>
