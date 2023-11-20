@@ -161,12 +161,16 @@ GLOBAL CSS - KEK
     justify-content: center !important;
 }
 
-.align-left {
+.align-left, .left-align {
     text-align: left !important;
 }
 
 .display-block {
     display: block !important;
+}
+
+.line-para {
+    line-height: 1.6 !important;
 }
 
 /*
@@ -263,7 +267,7 @@ START OF THE CONTAINER OF INDEX.HTML
     color: white;
     text-align: center;
     margin: 0px 50px;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .showicon {
@@ -819,6 +823,10 @@ CARRIER STYLE
 .footericon {
     margin: 20px 100px;
     height: 80px;
+}
+
+.emrtxt {
+    line-height: 1.6 !important;
 }
 
 @keyframes fadein {

@@ -141,7 +141,11 @@
     }
 
     .projectsitehead {
-        font-size: 30px !important;
+        font-size: 25px !important;
+    }
+
+    .emrsitehead {
+        font-size: 20px;
     }
 
     .copyright {
@@ -232,5 +236,9 @@
 
     .imprintdata {
         font-size: 14px !important;
+    }
+
+    .emrcontainer {
+        margin: 100px 15px !important;
     }
 }
