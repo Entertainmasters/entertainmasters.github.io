@@ -82,17 +82,23 @@
         margin: 100px 30px !important;
     }
 
+    /* --------------- GRAPH ------------------- */
+
     .graphs {
-        justify-content: unset !important;
         text-align: center !important;
-        display: grid !important;
-        grid-template-columns: auto auto !important;
+        display: block !important;
+        margin: 50px 0 !important;
     }
 
     .graph {
-        padding: 30px !important;
+        padding: 15px 30px !important;
         border-radius: 0% !important;
         width: auto !important;
+        max-width: unset !important;
+    }
+
+    .red-graph, .green-graph, .blue-graph, .yellow-graph {
+        background: none !important;
     }
 
     .numbergraph {
@@ -101,7 +107,28 @@
 
     .graphtitle {
         font-size: 16px !important;
+        border-bottom: 2px solid;
+        padding-bottom: 20px;
+        margin: 0 40px !important;
     }
+
+    .red-graph {
+        color: #fc7272 !important;
+    }
+
+    .blue-graph {
+        color: #72d5fc !important;
+    }
+
+    .yellow-graph {
+        color: #f7f25e !important;
+    }
+
+    .green-graph {
+        color: #73fa8c !important;
+    }
+
+    /* ------------------------------------ */
 
     .cutxt {
         padding-top: 100px;
@@ -160,7 +187,12 @@
     .orgagroup, .orgahead, .orgaem, .orgab {
         display: block !important;
         text-align: left !important;
-        font-size: 18px !important;
+        font-size: 17px !important;
+    }
+
+    .orgahead {
+        margin: 30px 0 10px 0 !important;
+        font-size: 20px !important;
     }
 
     .orgab {
@@ -240,5 +272,9 @@
 
     .emrcontainer {
         margin: 100px 15px !important;
+    }
+
+    .mpaheadtext {
+        margin-bottom: 15px;
     }
 }

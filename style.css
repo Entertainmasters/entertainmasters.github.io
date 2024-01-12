@@ -442,6 +442,8 @@ START OF THE CONTAINER OF INDEX.HTML
     padding: 80px;
     border-radius: 50%;
     width: 300px;
+    max-width: 300px;
+    min-width: 300px;
 }
 
 .red-graph {
