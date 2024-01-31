@@ -21,7 +21,7 @@ const FooterHTML = `
 
             <div class="footsec">
                 <p class="feetsec">Company:</p>
-                <a href="carriers.html" class="footlink">Carriers</a><br>
+                <a href="carriers.html" class="footlink">Careers</a><br>
                 <a href="newsroom.html" class="footlink">Newsroom</a>
             </div>
 
