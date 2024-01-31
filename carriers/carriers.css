@@ -29,3 +29,14 @@
 .carrierlist {
     margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 500px) {
+    .carriercontainer {
+        padding: 130px 20px !important;
+    }
+
+    .carrerapply {
+        font-size: 14px;
+    }
+
+}
