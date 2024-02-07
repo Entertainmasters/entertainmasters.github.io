@@ -30,6 +30,22 @@
     margin-bottom: 50px;
 }
 
+.j-openpropimg {
+    height: 16px;
+    margin-right: 5px;
+}
+
+.j-openprop {
+    display: inline-block;
+    margin: 0 20px 5px 0;
+    font-family: "Roboto";
+    color: white;
+}
+
+.jobpropeties {
+    margin-bottom: 50px;
+}
+
 @media only screen and (max-width: 500px) {
     .carriercontainer {
         padding: 130px 20px !important;
