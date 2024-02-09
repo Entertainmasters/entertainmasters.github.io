@@ -278,4 +278,8 @@
     .mpaheadtext {
         margin-bottom: 15px;
     }
+
+    .footersocial {
+        height: 25px;
+    }
 }
