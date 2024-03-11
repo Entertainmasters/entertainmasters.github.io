@@ -45,6 +45,10 @@
         display: none !important;
     }
 
+    .mobile-left {
+        text-align: left !important;
+    }
+
     /* THIS REQUIRES OPTIMIZATION!! */
 
     .newestprojects::-webkit-scrollbar {

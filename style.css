@@ -379,10 +379,11 @@ START OF THE CONTAINER OF INDEX.HTML
 }
 
 .readarticle {
+    display: inline-block;
     transition: 0.3s;
     font-family: "Montserrat";
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 12px;
     border: none;
     border-radius: 69px;
     padding: 10px 40px;
