@@ -331,7 +331,7 @@ START OF THE CONTAINER OF INDEX.HTML
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./src/Fireworks.gif');
+    background-image: url('./src/dffd.png');
     padding: 400px 0px 0px 0px;
     margin-bottom: 50px;
 }
@@ -830,6 +830,11 @@ CARRIER STYLE
 
 .emrtxt {
     line-height: 1.6 !important;
+}
+
+.historical-part {
+    font-family: "Entertainmasters-Sans";
+    font-size: 28px;
 }
 
 @keyframes fadein {
