@@ -59,6 +59,10 @@ body {
     background: rgb(30, 30, 30);
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 li > a {
     font-size: 18px;
     text-transform: uppercase;
@@ -576,11 +580,47 @@ END OF THE CONTAINER OF INDEX.HTML
 CARRIER STYLE
 */
 
+.carrierheader {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/78/Highlight_Towers_Munich_by_night.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.carrierhead-card {
+    padding: 130px 150px 100px 100px;
+    display: inline-block;
+    background: rgba(50, 50, 50, 0.9);
+    color: white;
+}
+
+.carrier-head-card-title {
+    font-family: "Entertainmasters-Sans";
+    font-size: 42px;
+}
+
+.carrier-head-card-text {
+    margin-top: 30px;
+    font-family: "Roboto";
+    line-height: 1.6;
+    width: 500px;
+}
+
+.carrier-jobs-btn {
+    display: inline-block;
+    background: #051b40;
+    margin-top: 150px;
+    padding: 15px 50px;
+    font-family: "Montserrat";
+}
+
 .carrierhead {
     font-family: "Entertainmasters-Sans";
     margin-bottom: 30px;
     color: white;
-    font-size: 50px;
+    font-size: 42px;
 }
 
 .carriertext {
@@ -626,6 +666,8 @@ CARRIER STYLE
     color: white;
     font-size: 16px;
     white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
 }
 
 .openpropimg {

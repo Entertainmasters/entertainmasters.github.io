@@ -286,4 +286,29 @@
     .footersocial {
         height: 25px;
     }
+
+    /*------------------[Career Card]-------------------*/
+
+    .carrierhead-card {
+        padding: 10px !important;
+    }
+
+    .carrierheader {
+        padding-top: 250px !important;
+    }
+
+    .carrier-head-card-title {
+        font-size: 30px !important;
+        margin: 10px;
+    }
+    
+    .carrier-head-card-text {
+        margin: 10px;
+        width: auto !important;
+    }
+
+    .carrier-jobs-btn {
+        margin: 10px;
+        margin-top: 50px !important;
+    }
 }
