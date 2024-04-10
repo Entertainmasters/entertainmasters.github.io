@@ -49,6 +49,14 @@
         text-align: left !important;
     }
 
+    .mobile-pad-y-2 {
+        padding: 20px 0px !important;
+    }
+
+    .mobile-size-35 {
+        font-size: 35px !important;
+    }
+
     /* THIS REQUIRES OPTIMIZATION!! */
 
     .newestprojects::-webkit-scrollbar {
@@ -311,4 +319,12 @@
         margin: 10px;
         margin-top: 50px !important;
     }
+
+    /* ---------- About Profiles ------------------ */
+
+    .apc-img {
+        height: 80px !important;
+        width: 80px !important;
+    }
+
 }

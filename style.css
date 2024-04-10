@@ -168,9 +168,9 @@ GLOBAL CSS - KEK
 }
 
 .desktop_flex {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .align-left, .left-align {
@@ -183,6 +183,11 @@ GLOBAL CSS - KEK
 
 .line-para {
     line-height: 1.6 !important;
+}
+
+.vert-centre {
+    display: flex;
+    align-items: center;
 }
 
 /*
@@ -238,6 +243,43 @@ START OF THE CONTAINER OF INDEX.HTML
     text-align: left;
     padding: 30px 0px !important;
 }
+
+/* ---------- About Profiles ------------------ */
+
+.about-peoples {
+    margin-top: 50px;
+    justify-content: space-around !important;
+}
+
+.apc-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 69420px;
+}
+
+.apc-names {
+    margin-left: 20px;
+}
+
+.apc-name, .apc-position {
+    font-family: "Roboto";
+    color: white;
+    line-height: 1.6 !important;
+    font-size: 18px;
+    text-align: left !important;
+}
+
+.apc-name {
+    font-size: 20px;
+    font-family: "Entertainmasters-Sans";
+}
+
+.apc-position {
+    font-size: 14px;
+    color: rgb(220, 220, 220);
+}
+
+/* --------------------------------------------- */
 
 .copyrc {
     font-family: "Roboto";
