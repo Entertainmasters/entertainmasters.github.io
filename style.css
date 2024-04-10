@@ -279,6 +279,13 @@ START OF THE CONTAINER OF INDEX.HTML
     color: rgb(220, 220, 220);
 }
 
+.apc-tweet {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 15px;
+    text-align: left !important;
+}
+
 /* --------------------------------------------- */
 
 .copyrc {
