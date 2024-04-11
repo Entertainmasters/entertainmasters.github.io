@@ -1,48 +1,56 @@
 /*
     style.css | the stylesheet for everything in the site
-    Copyright Entertainmasters & Copy05 2017 - 2023
+    Copyright (c) Entertainmasters & Copy05 2017 - 2024
 */
 
 @font-face {
     font-family: "Entertainmasters-Sans";
     src: url('./fonts/EM-SANS.ttf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Oswalt";
     src: url('./fonts/Oswald-Regular.ttf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Product-Sans";
     src: url('./fonts/Product\ Sans\ Regular.ttf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Roboto";
     src: url('./fonts/Roboto-Regular.ttf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: "EGM-WhiteNT";
     src: url('./fonts/White_NT.otf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: "EGM-Akira";
     src: url('./fonts/Akira\ Expanded\ Demo.otf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Montserrat";
     src: url('./fonts/Montserrat-Bold.ttf');
     font-weight: 600;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "DancingScript";
     src: url('./fonts/DancingScript-Regular.ttf');
     font-weight: 600;
+    font-display: swap;
 }
 
 .material-symbols-outlined {
@@ -127,9 +135,7 @@ em-fixedheader-fix {
     margin: 60px 0px;
 }
 
-/*
-ScrollBars
-*/
+/* -------------------- [ ScrollBars ] -------------------- */
 
 ::-webkit-scrollbar {
     background: #00060f;
@@ -145,9 +151,8 @@ ScrollBars
 
 /*
 GLOBAL CSS - KEK
+See: https://github.com/AgesoftOSS/KEK for the whole CSS Framework 
 */
-
-/* See: https://github.com/AgesoftOSS/KEK for the whole CSS Framework */
 
 .pad-y-4 {
     padding-bottom: 1.875rem !important;
@@ -246,7 +251,7 @@ START OF THE CONTAINER OF INDEX.HTML
     padding: 30px 0px !important;
 }
 
-/* ---------- About Profiles ------------------ */
+/* --------------- [ About Profiles ] --------------- */
 
 .about-peoples {
     margin-top: 50px;
@@ -635,9 +640,7 @@ END OF THE CONTAINER OF INDEX.HTML
     font-family: "EGM-Akira";
 }
 
-/*
-CARRIER STYLE
-*/
+/* ----------------- [ Career Site STYLE ] ----------------- */
 
 .carrierheader {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/78/Highlight_Towers_Munich_by_night.jpg");
@@ -941,6 +944,10 @@ CARRIER STYLE
     font-family: "Entertainmasters-Sans";
     font-size: 28px;
 }
+
+/* -------------------- [ Animations ] -------------------- 
+        Animator makes CSS Animations?? unbelieveable!
+*/
 
 @keyframes fadein {
     from { opacity: 0; }
