@@ -133,11 +133,14 @@ ScrollBars
 
 ::-webkit-scrollbar {
     background: #00060f;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: #4d4d4d;
+    background: rgb(60, 60, 60);
 }
 
 /*
@@ -195,7 +198,7 @@ GLOBAL CSS
 */
 
 .mpahead, a, a:visited, header, .logo, .logo:visited, .readarticle, .centerhead, .copyright, .graph, .client1, .client2, .client3, .graphs, 
-.clients, footer, .itxt, .ihead, .nptxt, .brand1, .brand2, .brand3, .brand4, .brand5, .articlehead, .aboutsec {
+.clients, footer, .itxt, .ihead, .nptxt, .brand1, .brand2, .brand3, .brand4, .brand5, .articlehead, .aboutsec, .abtxt {
     color: white;
 }
 
@@ -224,7 +227,6 @@ START OF THE CONTAINER OF INDEX.HTML
 */
 
 .abtxt {
-    color: white;
     font-size: 18px;
     font-family: "Roboto";
     text-align: left;
@@ -424,7 +426,7 @@ START OF THE CONTAINER OF INDEX.HTML
 
 .yticonart {
     height: 70px;
-    margin-right: 50px;
+    margin-bottom: 5px;
 }
 
 .blurart {
