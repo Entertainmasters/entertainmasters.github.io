@@ -1,10 +1,14 @@
 @media only print {
-    em-fixedheader-fix, header, footer, .emnews {
+    em-fixedheader-fix, header, footer, .emnews, .carrerapply {
         display: none;
     }
 
     .container {
         margin: 0px !important;
+    }
+
+    .carriercontainer {
+        padding: 0;
     }
 
     .newsheader {
@@ -21,7 +25,15 @@
         height: 260px !important;
     }
 
-    .newsheader, .newsdate, .newstext {
+    .newsheader, .newsdate, .newstext, .carriertitle, .carrierdesc, .carrierpart, .carrierlist, .clpoint, .j-openprop {
         color: rgb(20, 20, 20);
+    }
+    
+    .j-openpropimg {
+        filter: brightness(-100%);
+    }
+
+    .print_only {
+        display: block;
     }
 }

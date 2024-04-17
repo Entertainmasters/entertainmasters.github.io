@@ -185,6 +185,10 @@ See: https://github.com/AgesoftOSS/KEK for the whole CSS Framework
     text-align: left !important;
 }
 
+.align-right {
+    text-align: right !important;
+}
+
 .display-block {
     display: block !important;
 }
@@ -196,6 +200,10 @@ See: https://github.com/AgesoftOSS/KEK for the whole CSS Framework
 .vert-centre {
     display: flex;
     align-items: center;
+}
+
+.print_only {
+    display: none;
 }
 
 /*
