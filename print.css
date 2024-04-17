@@ -1,0 +1,27 @@
+@media only print {
+    em-fixedheader-fix, header, footer, .emnews {
+        display: none;
+    }
+
+    .container {
+        margin: 0px !important;
+    }
+
+    .newsheader {
+        margin-top: 10px !important;
+        font-size: 50px;
+        margin-bottom: 10px !important;
+    }
+
+    .newstext {
+        font-size: 14px !important;
+    }
+
+    .vision2024 {
+        height: 260px !important;
+    }
+
+    .newsheader, .newsdate, .newstext {
+        color: rgb(20, 20, 20);
+    }
+}
