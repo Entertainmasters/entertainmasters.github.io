@@ -211,11 +211,11 @@ GLOBAL CSS
 */
 
 .mpahead, a, a:visited, header, .logo, .logo:visited, .readarticle, .centerhead, .copyright, .graph, .client1, .client2, .client3, .graphs, 
-.clients, footer, .itxt, .ihead, .nptxt, .brand1, .brand2, .brand3, .brand4, .brand5, .articlehead, .aboutsec, .abtxt {
+.clients, footer, .itxt, .ihead, .nptxt, .brand1, .brand2, .brand3, .brand4, .brand5, .articlehead, .aboutsec, .abtxt, .ntxt {
     color: white;
 }
 
-.itxt, .centerhead, .ihead, .nptxt, .abtxt {
+.itxt, .centerhead, .ihead, .nptxt, .abtxt, .ntxt {
     font-family: "Roboto";
 }
 
@@ -233,6 +233,10 @@ header, .mainpagearticle, .graphs, .socials, .clients, .footsections, .brands, .
 
 .centre {
     text-align: center;
+}
+
+.mont-font {
+    font-family: "Montserrat";
 }
 
 /*
@@ -430,6 +434,11 @@ START OF THE CONTAINER OF INDEX.HTML
 
 .emrindpageheader {
     background-image: url("./src/Fireworks.gif");
+}
+
+.shroomrelease-projectpagearticle {
+    background-image: url("./src/thumbs/11.png");
+    padding: 200px 0px 0px 0px;
 }
 
 .efv-label {
@@ -951,6 +960,32 @@ END OF THE CONTAINER OF INDEX.HTML
 .historical-part {
     font-family: "Entertainmasters-Sans";
     font-size: 28px;
+}
+
+/* ----------------------- [ Shroomrelease ] ----------------------- */
+
+.shroomrelease-tag {
+    border-radius: 10px;
+    border: #3040ab 1px solid;
+    background: #101a61;
+    color: white;
+    font-family: "Montserrat";
+    padding: 5px 10px;
+    font-size: 14px;
+    display: inline-block;
+    margin: 3px;
+}
+
+.shroomrelease-tag-yellow {
+    background: rgb(217, 178, 37);
+    color: #5e5225;
+    border: #5e5225 1px solid;
+}
+
+.shroomrelease-tag-purple {
+    background: #48255e;
+    border: #872bff 1px solid;
+    color: #a560ff;
 }
 
 /* -------------------- [ Animations ] -------------------- 
