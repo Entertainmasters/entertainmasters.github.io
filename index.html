@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="mobile.css">  
     <link rel="icon" type="image/png" href="https://entertainmasters.github.io/src/favicon.svg">
     <title>Entertainmasters</title>
-    <script src="./SiteHelper.js" defer></script>
 
     <meta name="description" content="Entertainmasters is a munich based german movie production team">
     
@@ -29,7 +28,15 @@
 </head>
 <body>
 
-    <header id="header"></header>
+    <header id="header">
+        <a href="index.html" class="logohref"><p class="logo">Entertainmasters</p></a>
+        <ul class="nav_links">
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
     <em-fixedheader-fix></em-fixedheader-fix>
 
     <div class="fadeinanim">
@@ -59,6 +66,36 @@
         <a href="projects.html"><img alt="More Projects" src="./src/MorePoster.png" class="moreposter posterhref"></a>
     </div>
 
-    <footer id="footer"></footer>
+    <footer id="footer">
+        <div class="footsections">
+            <div class="fticon desktop_only">
+                <img alt="Entertainmasters Logo" class="footericon" src="./src/Mediakit/Wsauuasfus.png">
+            </div>
+            <div class="footsec">
+                <p class="feetsec">Company:</p>
+                <a href="carriers.html" class="footlink">Careers</a><br>
+                <a href="newsroom.html" class="footlink">Newsroom</a>
+            </div>
+            
+            <div class="footsec">
+                <p class="feetsec">Legal:</p>
+                <a href="privacy.html" class="footlink">Privacy</a><br>
+                <a href="copyright.html" class="footlink">Copyright</a><br>
+                <a href="imprint.html" class="footlink">Imprint</a>
+            </div>
+        </div>
+            
+        <p class="copyright">&copy; Copyright 2017 - 2024 Entertainmasters. All Rights Reserved.</p>
+            
+        <div class="socials">
+            <a href="https://www.youtube.com/@Entertainmasters" class="sociallink"><img class="footersocial" alt="Entertainmasters Youtube Link" src="./src/youtubelogo.png" height="30"></a>
+            <a href="https://twitter.com/OficialEMTweet" class="sociallink"><img class="footersocial" alt="Entertainmasters Twitter Link" src="./src/twitterlogo.png" height="30"></a>
+            <a href="https://discord.gg/tEsvwYx" class="sociallink"><img class="footersocial" alt="Entertainmasters Discord Link" src="./src/discordlogo.png" height="40"></a>
+            <a href="https://instagram.com/entertainmastersig" class="sociallink"><img class="footersocial" alt="Entertainmasters Instagram Link" src="./src/instagramlogo.png" height="30"></a>
+            <a href="https://www.tiktok.com/@entertainmasters" class="sociallink"><img class="footersocial" alt="Entertainmasters Tiktok Link" src="./src/tiktoklogo.png" height="30"></a>
+            <a href="https://www.twitch.tv/entertainmasters" class="sociallink"><img class="footersocial" alt="Entertainmasters Twitch Link" src="./src/twitch-tv-xxl.png" height="30"></a>
+            <a href="https://www.reddit.com/r/entertainmasters/" class="sociallink"><img class="footersocial" alt="Entertainmasters Reddit Link" src="./src/reddit-256.png" height="30"></a>
+        </div>
+    </footer>
 </body>
 </html>
