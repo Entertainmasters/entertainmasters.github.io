@@ -651,10 +651,41 @@ END OF THE CONTAINER OF INDEX.HTML
 .articleimg {
     margin-bottom: 10px;
     width: 300px;
+    border-radius: 10px;
 }
 
 .efv-label-n {
     font-family: "EGM-Akira";
+}
+
+/* ----------------- [ Newsroom Site STYLE ] ----------------- */
+
+.newsroom-header {
+    background-image: url("https://images.unsplash.com/photo-1611416370495-50fac9e1b382?q=80&w=2018&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.nrh-card {
+    padding: 130px 150px 100px 100px;
+    display: inline-block;
+    background: rgba(50, 50, 50, 0.9);
+    color: white;
+}
+
+.nrh-card-title {
+    font-family: "Entertainmasters-Sans";
+    font-size: 42px;
+}
+
+.nrh-card-text {
+    margin-top: 30px;
+    font-family: "Roboto";
+    line-height: 1.6;
+    width: 500px;
 }
 
 /* ----------------- [ Career Site STYLE ] ----------------- */

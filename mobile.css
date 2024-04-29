@@ -297,20 +297,20 @@
 
     /*------------------[Career Card]-------------------*/
 
-    .carrierhead-card {
+    .carrierhead-card, .nrh-card {
         padding: 10px !important;
     }
 
-    .carrierheader {
+    .carrierheader, .newsroom-header {
         padding-top: 250px !important;
     }
 
-    .carrier-head-card-title {
+    .carrier-head-card-title, .nrh-card-title  {
         font-size: 30px !important;
         margin: 10px;
     }
     
-    .carrier-head-card-text {
+    .carrier-head-card-text, .nrh-card-text {
         margin: 10px;
         width: auto !important;
     }
