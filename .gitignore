@@ -2,5 +2,3 @@
 *.db
 src/*.db
 src/Thumbs.db
-
-sitemap.xml
