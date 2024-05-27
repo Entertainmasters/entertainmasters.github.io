@@ -165,6 +165,10 @@
         font-size: 14px;
     }
 
+    .articleyear {
+        margin-left: 20px !important;
+    }
+
     .projhref {
         height: 100px !important;
         border-radius: 5px !important;

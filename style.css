@@ -53,6 +53,20 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "Avenir Next";
+    src: url('https://assets.bwbx.io/s3/fontservice/fonts/AvenirNextPForBBG-Demi-b9b4abf0ea.woff2');
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Avenir Next";
+    src: url('https://assets.bwbx.io/s3/fontservice/fonts/AvenirNextPForBBG-Regular-eb3bb1b816.woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 0,
@@ -651,7 +665,7 @@ END OF THE CONTAINER OF INDEX.HTML
 .articleimg {
     margin-bottom: 10px;
     width: 300px;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 .efv-label-n {
@@ -677,15 +691,31 @@ END OF THE CONTAINER OF INDEX.HTML
 }
 
 .nrh-card-title {
-    font-family: "Entertainmasters-Sans";
+    font-family: "Avenir Next";
+    font-weight: bold;
     font-size: 42px;
 }
 
 .nrh-card-text {
     margin-top: 30px;
-    font-family: "Roboto";
+    font-family: "Avenir Next";
     line-height: 1.6;
     width: 500px;
+}
+
+.articleyear {
+    font-family: "Avenir Next";
+    font-size: 36px;
+    color: white;
+    margin: 50px 0 20px 0;
+}
+
+.news-header {
+    font-family: "Avenir Next";
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+    margin: 30px 0px;
 }
 
 /* ----------------- [ Career Site STYLE ] ----------------- */
@@ -707,13 +737,14 @@ END OF THE CONTAINER OF INDEX.HTML
 }
 
 .carrier-head-card-title {
-    font-family: "Entertainmasters-Sans";
+    font-family: "Avenir Next";
+    font-weight: bold;
     font-size: 42px;
 }
 
 .carrier-head-card-text {
     margin-top: 30px;
-    font-family: "Roboto";
+    font-family: "Avenir Next";
     line-height: 1.6;
     width: 500px;
 }
@@ -723,7 +754,7 @@ END OF THE CONTAINER OF INDEX.HTML
     background: #051b40;
     margin-top: 150px;
     padding: 15px 50px;
-    font-family: "Montserrat";
+    font-family: "Avenir Next";
 }
 
 .carrierhead {
@@ -788,6 +819,24 @@ END OF THE CONTAINER OF INDEX.HTML
     margin: 0px 10px;
     height: 20px;
 }
+
+.job-apply-btn {
+    display: inline-block;
+    background: #051b40;
+    padding: 15px 50px;
+    font-family: "Avenir Next";
+    margin: 20px 0 15px 0;
+}
+
+.job-apply-btn:hover {
+    background: #061938;
+}
+
+.carrerapply {
+    font-size: 14px;
+}
+
+/* ------------------------------------------- */
 
 .cutxt {
     text-align: center;
