@@ -220,6 +220,14 @@ See: https://github.com/AgesoftOSS/KEK for the whole CSS Framework
     display: none;
 }
 
+.undo-text-transform {
+    text-transform: unset;
+}
+
+.no-right-padding {
+    padding-right: 0 !important;
+}
+
 /*
 GLOBAL CSS
 */
@@ -758,7 +766,8 @@ END OF THE CONTAINER OF INDEX.HTML
 }
 
 .carrierhead {
-    font-family: "Entertainmasters-Sans";
+    font-family: "Avenir Next";
+    font-weight: bold;
     margin-bottom: 30px;
     color: white;
     font-size: 42px;
@@ -766,7 +775,7 @@ END OF THE CONTAINER OF INDEX.HTML
 
 .carriertext {
     margin-bottom: 80px;
-    font-family: "Roboto";
+    font-family: "Avenir Next";
     color: white;
     font-size: 16px;
 }
@@ -979,7 +988,7 @@ END OF THE CONTAINER OF INDEX.HTML
 .mktxt {
     margin-left: 20px;
     margin-top: 80px;
-    font-family: "Roboto";
+    font-family: "Avenir Next";
     color: white;
 }
 
@@ -1066,6 +1075,79 @@ END OF THE CONTAINER OF INDEX.HTML
     background: #48255e;
     border: #872bff 1px solid;
     color: #a560ff;
+}
+
+/* CORPERATE HEADER */
+
+.corperate-header {
+    position: relative;
+    background-color: black;
+}
+
+.corperate-header-links > li > a {
+    font-size: 16px;
+    text-transform: normal !important;
+    font-family: "Avenir Next";
+}
+
+/* CORPERATE FOOTER */
+
+.corperate-footer-socials {
+    border-bottom: #fff 1px solid;
+    border-top: #fff 1px solid;
+
+    margin: 20px 50px 0px 50px;
+}
+
+.corperate-footsec, .corperate-feetsec, .corperate-footlink {
+    font-family: "Avenir Next" !important;
+}
+
+.corperate-footer-socials > .sociallink {
+    margin-bottom: 0;
+    padding: 10px 0px;
+    font-size: 14px ;
+    font-family: "Avenir Next";
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vert-centre > .footersocial {
+    padding-right: 10px;
+}
+
+/*.corperate-footer-socials > .sociallink > .footersocial {
+
+}*/
+
+.bottom-coperate-footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    margin: 25px 50px 0px 50px;
+}
+
+.corperate-legal-links {
+    display: flex;
+    align-items: center;
+}
+
+.corperate-legal-links > .footlink {
+    padding: 0px 10px;
+    margin-bottom: 0;
+    font-family: "Avenir Next";
+}
+
+.corperate-footer-copyright {
+    font-family: "Avenir Next";
+    font-weight: bold;
+}
+
+.right-legal-border {
+    border-right: #fff 1px solid;
 }
 
 /* -------------------- [ Animations ] -------------------- 

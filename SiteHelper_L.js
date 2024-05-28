@@ -20,8 +20,8 @@ const FooterHTML = `
 </div>
             <div class="footsec">
                 <p class="feetsec">Company:</p>
-                <a href="../carriers.html" class="footlink">Careers</a><br>
-                <a href="../newsroom.html" class="footlink">Newsroom</a>
+                <a href="../company/careers.html" class="footlink">Careers</a><br>
+                <a href="../company/news.html" class="footlink">Newsroom</a>
             </div>
 
             <div class="footsec">

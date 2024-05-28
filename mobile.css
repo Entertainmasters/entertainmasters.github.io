@@ -299,6 +299,10 @@
         height: 25px;
     }
 
+    .corperate-footer-socials > .sociallink > .footersocial {
+        height: 18px;
+    }
+
     /*------------------[Career Card]-------------------*/
 
     .carrierhead-card, .nrh-card {
@@ -329,6 +333,29 @@
     .apc-img {
         height: 80px !important;
         width: 80px !important;
+    }
+
+    /* Corperate Footer */
+
+    .corperate-footer-socials {
+        margin-top: 15px !important;
+    
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .bottom-coperate-footer-content {
+        display: block !important;
+    }
+
+    .corperate-footer-copyright {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .corperate-legal-links {
+        margin-top: 10px;
+        justify-content: center;
     }
 
 }
