@@ -47,6 +47,10 @@
     color: white;
 }
 
+.j-openprop > .vert-centre > .material-symbols-outlined {
+    margin-right: 5px;
+}
+
 .jobpropeties {
     margin-bottom: 25px;
 }
