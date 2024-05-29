@@ -793,7 +793,7 @@ END OF THE CONTAINER OF INDEX.HTML
 }
 
 .opensec {
-    font-family: "Roboto";
+    font-family: "Avenir Next";
     color: white;  
     font-size: 20px;
     padding: 30px 0px;
@@ -802,7 +802,7 @@ END OF THE CONTAINER OF INDEX.HTML
 .openname {
     margin-left: 1.5rem;
     width: 50%;
-    font-family: "Roboto";
+    font-family: "Avenir Next";
     color: white;
     font-size: 16px;
 }
@@ -812,7 +812,7 @@ END OF THE CONTAINER OF INDEX.HTML
 }
 
 .openprop {
-    font-family: "Roboto";
+    font-family: "Avenir Next";
     color: white;
     font-size: 16px;
     white-space: nowrap;
@@ -1148,6 +1148,83 @@ END OF THE CONTAINER OF INDEX.HTML
 
 .right-legal-border {
     border-right: #fff 1px solid;
+}
+
+/* Site Cards */
+
+.site-header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.site-header-card {
+    padding: 130px 150px 100px 100px;
+    display: inline-block;
+    background: rgba(50, 50, 50, 0.9);
+    color: white;
+}
+
+.site-header-card-title {
+    font-family: "Avenir Next";
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.site-header-card-text {
+    margin-top: 30px;
+    font-family: "Avenir Next";
+    line-height: 1.6;
+    width: 500px;
+}
+
+.site-header-card-btn {
+    display: inline-block;
+    background: #051b40;
+    margin-top: 150px;
+    padding: 15px 50px;
+    font-family: "Avenir Next";
+}
+
+/* Corperate Index.html */
+
+.corperate-index-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.nyfa.edu/wp-content/uploads/2023/12/producingresources-1024x683.jpg");
+}
+
+.corperate-index-header-card-title {
+    font-size: 52px;
+}
+
+.corperate-index-header-card {
+    background: none;
+}
+
+.outline-white-text {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+.corperate-index-header-card-btn {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.corperate-index-heading {
+    font-family: "Avenir Next";
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 42px;
+}
+
+.corperate-index-text {
+    margin-bottom: 80px;
+    font-family: "Avenir Next";
+    color: white;
+    font-size: 16px;
 }
 
 /* -------------------- [ Animations ] -------------------- 

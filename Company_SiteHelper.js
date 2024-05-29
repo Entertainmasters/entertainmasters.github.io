@@ -20,6 +20,7 @@ const FooterHTML = `
 </div>
             <div class="corperate-footsec footsec">
                 <p class="corperate-feetsec feetsec">Company:</p>
+                <a href="./index.html" class="corperate-footlink footlink">Company</a><br>
                 <a href="./careers.html" class="corperate-footlink footlink">Careers</a><br>
                 <a href="./news.html" class="corperate-footlink footlink footlink">Newsroom</a>
             </div>

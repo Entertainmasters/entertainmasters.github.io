@@ -305,20 +305,20 @@
 
     /*------------------[Career Card]-------------------*/
 
-    .carrierhead-card, .nrh-card {
+    .carrierhead-card, .nrh-card, .site-header-card {
         padding: 10px !important;
     }
 
-    .carrierheader, .newsroom-header {
+    .carrierheader, .newsroom-header, .site-header {
         padding-top: 250px !important;
     }
 
-    .carrier-head-card-title, .nrh-card-title  {
+    .carrier-head-card-title, .nrh-card-title, .site-header-card-title {
         font-size: 30px !important;
         margin: 10px;
     }
     
-    .carrier-head-card-text, .nrh-card-text {
+    .carrier-head-card-text, .nrh-card-text, .site-header-card-text {
         margin: 10px;
         width: auto !important;
     }
