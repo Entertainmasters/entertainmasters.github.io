@@ -1118,6 +1118,13 @@ END OF THE CONTAINER OF INDEX.HTML
     padding-right: 10px;
 }
 
+.corperate-feetsec {
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 /*.corperate-footer-socials > .sociallink > .footersocial {
 
 }*/
