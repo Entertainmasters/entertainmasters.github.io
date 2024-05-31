@@ -353,6 +353,10 @@
         font-size: 13px;
     }
 
+    .corperate-index-text {
+        width: auto;
+    }
+
     .corperate-legal-links {
         margin-top: 10px;
         justify-content: center;
