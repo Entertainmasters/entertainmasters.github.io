@@ -89,7 +89,7 @@ body {
     background: rgb(30, 30, 30);
 }
 
-html, body {
+html, body, * {
     scroll-behavior: smooth;
 }
 
@@ -379,12 +379,12 @@ START OF THE CONTAINER OF INDEX.HTML
 .projhref {
     transition: 0.2s;
     height: 200px;
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 5px 10px;
 }
 
 .projhref:hover {
-    border-radius: 30px;
+    border-radius: 15px;
     opacity: 80%;
     transform: scale(1.05);
 }
