@@ -51,10 +51,6 @@
     margin-right: 5px;
 }
 
-.jobpropeties {
-    margin-bottom: 25px;
-}
-
 @media only screen and (max-width: 500px) {
     .carriercontainer {
         padding: 130px 20px !important;
