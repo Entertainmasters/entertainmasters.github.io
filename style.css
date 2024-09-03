@@ -213,7 +213,7 @@ See: https://github.com/AgesoftOSS/KEK for the whole CSS Framework
     display: block !important;
 }
 
-.line-para {
+.line-para, .carrierlist {
     line-height: 1.6 !important;
 }
 
