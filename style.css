@@ -282,8 +282,8 @@ START OF THE CONTAINER OF INDEX.HTML
     font-size: 40px;
 }
 
-.ccontainer {
-    margin: 100px 100px;
+.ccontainer, .career-container {
+    margin: 100px;
 }
 
 .abouthead, .abouttext {
@@ -734,13 +734,16 @@ END OF THE CONTAINER OF INDEX.HTML
 
 /* ----------------- [ Career Site STYLE ] ----------------- */
 
+.career-container {
+    margin: 50px 200px;
+}
+
 .carrierheader {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/78/Highlight_Towers_Munich_by_night.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
-    margin-bottom: 50px;
 }
 
 .carrierhead-card {
@@ -750,16 +753,36 @@ END OF THE CONTAINER OF INDEX.HTML
     color: white;
 }
 
-.carrier-head-card-title {
+.career-welcome-text {
+    color: white;
+    padding: 20px 200px;
+    border-bottom: 1px solid rgb(117, 109, 96);
+    margin-bottom: 20px;
+}
+
+.career-wlats-sec {
+    background: #3040ab;
+    padding: 50px 200px;
+    color: white;
+}
+
+.carrier-head-card-title, .career-big-text, .career-big-thin-text {
     font-family: "Avenir Next";
     font-weight: bold;
     font-size: 42px;
 }
 
-.carrier-head-card-text {
+.career-big-thin-text {
+    font-weight: normal;
+}
+
+.carrier-head-card-text, .career-small-text {
     margin-top: 30px;
     font-family: "Avenir Next";
     line-height: 1.6;
+}
+
+.carrier-head-card-text {
     width: 500px;
 }
 

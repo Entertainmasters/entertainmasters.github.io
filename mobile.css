@@ -90,7 +90,7 @@
         padding: 20px !important;
     }
 
-    .ccontainer {
+    .ccontainer, .career-container {
         margin: 100px 30px !important;
     }
 
@@ -326,6 +326,24 @@
     .carrier-jobs-btn {
         margin: 10px;
         margin-top: 50px !important;
+    }
+
+    /* Career Site */
+
+    .career-container {
+        margin: 30px !important;
+    }
+
+    .career-welcome-text {
+        padding: 20px !important;
+    }
+
+    .career-wlats-sec {
+        padding: 30px !important;
+    }
+
+    .career-big-text, .career-big-thin-text {
+        font-size: 28px !important;
     }
 
     /* ---------- About Profiles ------------------ */
