@@ -544,26 +544,6 @@ START OF THE CONTAINER OF INDEX.HTML
     padding: 20px 0px;
 }
 
-.red-graph {
-    background: linear-gradient(90deg, rgba(255,98,98,1) 0%, rgba(196,59,147,1) 100%);
-    color: darkred;
-}
-
-.blue-graph {
-    background: linear-gradient(90deg, rgba(0,104,255,1) 0%, rgba(128,222,255,1) 100%);
-    color: darkblue;
-}
-
-.green-graph {
-    background: linear-gradient(90deg, rgba(0,255,136,1) 0%, rgba(39,134,145,1) 100%);
-    color: darkslategrey;
-}
-
-.yellow-graph {
-    background: linear-gradient(90deg, rgba(255,211,98,1) 0%, rgba(177,196,59,1) 100%);
-    color: #543f09;
-}
-
 .numbergraph {
     font-family: "Montserrat";
     font-size: 80px;
