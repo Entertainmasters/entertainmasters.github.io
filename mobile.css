@@ -113,6 +113,10 @@
         background: none !important;
     }
 
+    .number-graph-title {
+        font-size: 32px !important;
+    }
+
     .numbergraph {
         font-size: 35px !important;
     }
@@ -124,21 +128,7 @@
         margin: 0 40px !important;
     }
 
-    .red-graph {
-        color: #fc7272 !important;
-    }
-
-    .blue-graph {
-        color: #72d5fc !important;
-    }
-
-    .yellow-graph {
-        color: #f7f25e !important;
-    }
-
-    .green-graph {
-        color: #73fa8c !important;
-    }
+    
 
     /* ------------------------------------ */
 

@@ -544,14 +544,6 @@ START OF THE CONTAINER OF INDEX.HTML
     padding: 20px 0px;
 }
 
-.graph {
-    padding: 80px;
-    border-radius: 50%;
-    width: 300px;
-    max-width: 300px;
-    min-width: 300px;
-}
-
 .red-graph {
     background: linear-gradient(90deg, rgba(255,98,98,1) 0%, rgba(196,59,147,1) 100%);
     color: darkred;
@@ -575,6 +567,19 @@ START OF THE CONTAINER OF INDEX.HTML
 .numbergraph {
     font-family: "Montserrat";
     font-size: 80px;
+}
+
+.number-graph-title {
+    text-align: center;
+    font-family: "Avenir Next";
+    color: white;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.numgraph {
+    padding: 20px 80px;
+    background: #101a61;
 }
 
 .graphtitle {
