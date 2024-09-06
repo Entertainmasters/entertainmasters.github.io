@@ -456,14 +456,6 @@ START OF THE CONTAINER OF INDEX.HTML
     background-image: url('./src/thumbs/MemesOf2023_EMR2023_Highlights.png');
 }
 
-.emrpageheader {
-    background-image: url("./src/thumbs/12.png");
-}
-
-.emrindpageheader {
-    background-image: url("./src/Fireworks.gif");
-}
-
 .shroomrelease-projectpagearticle {
     background-image: url("./src/thumbs/11.png");
     padding: 200px 0px 0px 0px;
@@ -1001,6 +993,55 @@ END OF THE CONTAINER OF INDEX.HTML
 
 .orgaem {
     font-size: 42px;
+}
+
+/* ----------------------- [ Project Page ] ----------------------- */
+
+.project-page-header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 200px;
+    margin-bottom: 50px;
+}
+
+.project-header-title {
+    font-size: 42px;
+    color: white;
+}
+
+.project-header-description {
+    margin-top: 20px;
+    width: 40vw;
+    font-family: "Avenir Next";
+    color: white;
+}
+
+.project-site-head-text {
+    font-family: "Entertainmasters-Sans";
+    margin-bottom: 20px;
+    color: white;
+    font-size: 32px;
+}
+
+.project-header-watch-btn {
+    font-family: "Entertainmasters-Sans";   
+    display: inline-block;
+    margin-top: 30px;
+    background: #061938;
+    padding: 10px 30px;
+}
+
+.project-title-emr {
+    font-family: "EGM-Akira";
+}
+
+.emrpageheader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./src/Fireworks.gif");
+}
+
+.emrindpageheader {
+    background-image: url("./src/Fireworks.gif");
 }
 
 .emrsoundproviderNCS, .emrsoundproviderSR, .emrsoundproviderEMM {

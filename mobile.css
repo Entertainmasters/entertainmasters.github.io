@@ -388,4 +388,19 @@
         height: 100px;
     }
 
+    /* ----------------------- [ Project Page ] ----------------------- */
+
+    .project-page-header {
+        padding: 140px 20px !important;
+        margin-bottom: unset !important;
+    }
+
+    .project-header-title {
+        font-size: 24px !important;
+    }
+
+    .project-header-description {
+        width: unset !important;
+    }
+
 }
