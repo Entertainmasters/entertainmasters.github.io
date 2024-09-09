@@ -391,4 +391,8 @@
         width: unset !important;
     }
 
+    .project-header-emr-border-btn {
+        margin: 10px 0 !important;
+    }
+
 }
