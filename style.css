@@ -882,7 +882,10 @@ END OF THE CONTAINER OF INDEX.HTML
 
 .ch-img-animator {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a3/Norman_McLaren_drawing_on_film_-_1944.jpg');
+}
 
+.ch-img-thumbnail-designer {
+    background-image: url('./src/djbsjdbjsf.png');
 }
 
 /* ------------------------------------------- */
