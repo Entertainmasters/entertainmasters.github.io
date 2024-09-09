@@ -1002,7 +1002,7 @@ END OF THE CONTAINER OF INDEX.HTML
     margin-top: 20px;
     width: 40vw;
     font-family: "Avenir Next";
-    color: white;
+    color: rgb(220, 220, 220);
 }
 
 .project-site-head-text {
