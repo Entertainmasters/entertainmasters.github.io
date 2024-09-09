@@ -5,10 +5,11 @@ const dd = document.getElementById('days')
 const dh = document.getElementById('hours')
 const dm = document.getElementById('minutes')
 const ds = document.getElementById('seconds')
+const countdownContainer = document.getElementById('countdown'); 
 
 const CurrentYear = new Date().getFullYear();
 const NewYear = new Date(`Jan 1, ${CurrentYear + 1} 00:00:00`);
-//const NewYear = new Date(`Apr 25, ${CurrentYear} 14:00:00`);
+//const NewYear = new Date(`Sep 9, ${CurrentYear} 08:57:50`);
 
 function CheckCond(){
     if(dd.innerText == 0){
@@ -26,6 +27,12 @@ function CheckCond(){
     }
     if(dd.innerText == 0 && dh.innerText == 0 && dm.innerText == 0 && ds.innerText == 0){
         ds.style.display = "none"
+
+        countdownContainer.innerHTML = '<p id="happyNewYear">Happy New Year!</p>';
+        countdownContainer.style.background = "rgba(0, 0, 0, 0.5)";
+
+        document.getElementById("happyNewYear").style.fontSize = "70px";
+
         clearInterval(c);
     }
 }
@@ -55,5 +62,5 @@ document.addEventListener('DOMContentLoaded', (e) => {
         document.getElementById('copyr').style.display = "none";
     }
     document.getElementById('hashtag').innerText = "#EMR" + new Date().getFullYear().toString();
-    document.getElementById('copyr').innerHTML = "&copy; Entertainmasters 2020 - " + new Date().getFullYear().toString() + ". All Rights Reserved."
+    document.getElementById('copyr').innerHTML = "&copy; Entertainmasters 2020 - " + new Date().getFullYear().toString() + ", All Rights Reserved."
 })
