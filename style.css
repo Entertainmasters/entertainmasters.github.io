@@ -1201,6 +1201,12 @@ END OF THE CONTAINER OF INDEX.HTML
     font-family: "Avenir Next" !important;
 }
 
+.corperate-footsec {
+    flex: 1;
+    margin: 0 80px;
+    padding: 0 10px;
+}
+
 .corperate-footer-socials > .sociallink {
     margin-bottom: 0;
     padding: 10px 0px;

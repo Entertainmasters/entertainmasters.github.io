@@ -374,6 +374,12 @@
         margin: 20px 50px 0px 50px !important;
     }
 
+    .corperate-footsec {
+        flex: 1;
+        margin: 0 !important;
+        padding: 0 10px;
+    }
+
     /* Coperate Site */
 
     .corperate-index-text {
