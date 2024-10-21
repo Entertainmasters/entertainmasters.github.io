@@ -1228,7 +1228,7 @@ END OF THE CONTAINER OF INDEX.HTML
     text-transform: uppercase;
     letter-spacing: 1px;
 
-    border-bottom: #fff 1px solid;
+    border-bottom: #6e6e6e 1px solid;
     text-align: left;
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -1244,6 +1244,11 @@ END OF THE CONTAINER OF INDEX.HTML
 /*.corperate-footer-socials > .sociallink > .footersocial {
 
 }*/
+
+.fticon {
+    margin: 20px 0;
+    border-right: 1px #6e6e6e solid;
+}
 
 .bottom-coperate-footer-content {
     display: flex;
@@ -1267,6 +1272,7 @@ END OF THE CONTAINER OF INDEX.HTML
 .corperate-footer-copyright {
     font-family: "Avenir Next";
     font-weight: bold;
+    font-size: 12px;
 }
 
 .right-legal-border {
