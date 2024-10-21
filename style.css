@@ -1221,6 +1221,18 @@ END OF THE CONTAINER OF INDEX.HTML
     color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
+
+    border-bottom: #fff 1px solid;
+    text-align: left;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.corperate-footlink {
+    display: block;
+    text-align: left;
+    margin: 5px auto;
+    font-size: 12px;
 }
 
 /*.corperate-footer-socials > .sociallink > .footersocial {

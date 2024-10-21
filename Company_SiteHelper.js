@@ -13,15 +13,15 @@ const HeaderHTML = `
 `
 
 const FooterHTML = `
-<div class="footsections">
+<div class="footsections corperate-footsections">
 
 <div class="fticon desktop_only">
     <img alt="Entertainmasters Logo" class="footericon" src="../src/Mediakit/Wsauuasfus.png">
 </div>
             <div class="corperate-footsec footsec">
                 <p class="corperate-feetsec feetsec">Company:</p>
-                <a href="./index.html" class="corperate-footlink footlink">Company</a><br>
-                <a href="./careers.html" class="corperate-footlink footlink">Careers</a><br>
+                <a href="./index.html" class="corperate-footlink footlink">Company</a>
+                <a href="./careers.html" class="corperate-footlink footlink">Careers</a>
                 <a href="./news.html" class="corperate-footlink footlink footlink">Newsroom</a>
             </div>
         </div>
