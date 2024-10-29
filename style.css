@@ -536,7 +536,7 @@ START OF THE CONTAINER OF INDEX.HTML
 .graphs {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 50px;
 }
 
